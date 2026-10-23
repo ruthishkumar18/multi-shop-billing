@@ -1,0 +1,181 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "shop_name": "System Administration",
+      "owner_name": "Master Administrator",
+      "username": "admin",
+      "password_hash": "Admin@2026",
+      "role": "admin",
+      "mobile": "9876543210",
+      "email": "admin@billingsystem.local",
+      "status": "active",
+      "created_at": "2026-10-22T09:11:58"
+    },
+    {
+      "created_at": "2026-10-22T10:29:21",
+      "email": "ruthish@gmail.com",
+      "id": 2,
+      "mobile": "9876543210",
+      "owner_name": "Ruthish",
+      "role": "customer",
+      "shop_name": "Ruthish Traders",
+      "status": "active",
+      "username": "ruthish",
+      "password_hash": "Ruthish@18"
+    }
+  ],
+  "profiles": [
+    {
+      "address": null,
+      "bill_footer": "Thank you for shopping with us! Visit again.",
+      "bill_header": "Welcome to Ruthish Traders",
+      "brand_name": "Ruthish Traders",
+      "currency_symbol": "\u20b9",
+      "email": "ruthish@gmail.com",
+      "id": 1,
+      "logo_path": null,
+      "mobile": "9876543210",
+      "owner_name": "Ruthish",
+      "terms_conditions": "Goods once sold cannot be returned after 7 days without bill receipt.",
+      "updated_at": "2026-10-22T10:29:21",
+      "user_id": 2
+    }
+  ],
+  "products": [
+    {
+      "created_at": "Thu, 22 Oct 2026 10:30:15 GMT",
+      "id": 1,
+      "name": "Milk",
+      "price_per_unit": 70,
+      "sku": null,
+      "status": "active",
+      "unit": "Litres (L)",
+      "updated_at": "Thu, 22 Oct 2026 10:30:15 GMT",
+      "user_id": 2
+    },
+    {
+      "created_at": "Thu, 22 Oct 2026 10:30:26 GMT",
+      "id": 2,
+      "name": "Curd",
+      "price_per_unit": 60,
+      "sku": null,
+      "status": "active",
+      "unit": "Litres (L)",
+      "updated_at": "Thu, 22 Oct 2026 10:30:26 GMT",
+      "user_id": 2
+    },
+    {
+      "created_at": "Thu, 22 Oct 2026 10:30:36 GMT",
+      "id": 3,
+      "name": "Tomato",
+      "price_per_unit": 40,
+      "sku": null,
+      "status": "active",
+      "unit": "Kilograms (kg)",
+      "updated_at": "Thu, 22 Oct 2026 10:30:36 GMT",
+      "user_id": 2
+    }
+  ],
+  "bills": [
+    {
+      "bill_date": "2026-10-23T11:22:50",
+      "bill_number": "INV-20261023-006",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Ruthishkumarr",
+      "discount": 0,
+      "grand_total": 97600.2,
+      "id": 7,
+      "payment_mode": "UPI / QR Code",
+      "status": "void",
+      "subtotal": 97600.2,
+      "user_id": 2,
+      "void_reason": "Billing calculation is wrong"
+    },
+    {
+      "bill_date": "2026-10-23T11:21:43",
+      "bill_number": "INV-20261023-005",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Ruthiish",
+      "discount": 0,
+      "grand_total": 300,
+      "id": 6,
+      "payment_mode": "Cash",
+      "status": "completed",
+      "subtotal": 300,
+      "user_id": 2,
+      "void_reason": null
+    },
+    {
+      "bill_date": "2026-10-23T11:20:47",
+      "bill_number": "INV-20261023-004",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Ruthishh",
+      "discount": 0,
+      "grand_total": 70,
+      "id": 5,
+      "payment_mode": "Cash",
+      "status": "completed",
+      "subtotal": 70,
+      "user_id": 2,
+      "void_reason": null
+    },
+    {
+      "bill_date": "2026-10-23T11:19:34",
+      "bill_number": "INV-20261023-003",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Kumarrr",
+      "discount": 0,
+      "grand_total": 30000.08,
+      "id": 4,
+      "payment_mode": "UPI / QR Code",
+      "status": "void",
+      "subtotal": 30000.08,
+      "user_id": 2,
+      "void_reason": "Billing calculation is wrong"
+    },
+    {
+      "bill_date": "2026-10-23T10:05:11",
+      "bill_number": "INV-20261023-002",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Kumarr",
+      "discount": 0,
+      "grand_total": 20,
+      "id": 3,
+      "payment_mode": "UPI / PhonePe / GPay",
+      "status": "completed",
+      "subtotal": 20,
+      "user_id": 2,
+      "void_reason": null
+    },
+    {
+      "bill_date": "2026-10-23T09:53:55",
+      "bill_number": "INV-20261023-001",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Ruthishkumar",
+      "discount": 0,
+      "grand_total": 60,
+      "id": 2,
+      "payment_mode": "Cash",
+      "status": "completed",
+      "subtotal": 60,
+      "user_id": 2,
+      "void_reason": null
+    },
+    {
+      "bill_date": "2026-10-22T10:31:37",
+      "bill_number": "INV-20261022-001",
+      "buyer_mobile": "9876543210",
+      "buyer_name": "Kumar",
+      "discount": 0,
+      "grand_total": 110,
+      "id": 1,
+      "payment_mode": "Cash",
+      "status": "completed",
+      "subtotal": 110,
+      "user_id": 2,
+      "void_reason": null
+    }
+  ],
+  "logs": []
+}

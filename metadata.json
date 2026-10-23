@@ -1,0 +1,6 @@
+{
+  "name": "Multi-Shop Billing Management System",
+  "description": "Professional billing management system for grocery shops, stationery, and retail stores with multi-shop isolation, invoice printing, WhatsApp/SMS sharing, and exportable MySQL schema and Flask backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

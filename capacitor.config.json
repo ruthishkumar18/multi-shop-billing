@@ -1,0 +1,10 @@
+{
+  "appId": "com.multishop.billingsystem",
+  "appName": "Billing POS",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}
